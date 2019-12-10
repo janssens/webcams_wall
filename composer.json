@@ -1,0 +1,18 @@
+{
+    "name": "janssens/webcams_wall",
+    "description": "php tool to create a full width responsive webcams wall",
+    "type": "project",
+    "require": {
+        "symfony/yaml": "^5.0",
+        "components/jquery": "1.9.*",
+        "twig/twig": "^3.0",
+        "nicolafranchini/venobox": "^1.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "janssens",
+            "email": "janssensgaetan@gmail.com"
+        }
+    ]
+}

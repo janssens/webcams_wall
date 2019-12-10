@@ -1,0 +1,10 @@
+{% set lastMod = app.curl_get_lastmod(cam.url) %}
+{% if  (lastMod and ( ("now"|date_modify("-1 day")) <  lastMod ) ) or cam.skip_timestamp %}
+    <a style="background-image: url({{ cam.url}})" href="{{ cam.url}}" class="grid-item {{ cam.massif }} {{ cam.format }}">
+        <span class="title" >{{ cam.name }}</span>
+        <span class="massif">{{ cam.massif }}</span>
+        <span class="date" data-timestamp="{{ lastMod.timestamp }}">
+                {{ lastMod.timestamp | date("d M Y H:i:s") }}
+        </span>
+    </a>
+{% endif %}

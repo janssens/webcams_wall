@@ -1,0 +1,136 @@
+body{
+  background: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+a{
+  color: white;
+}
+.grid-item{
+  display: block;
+  width: 25%;
+  height: 15vw;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  span{
+    display: block;
+    padding: 2px 5px;
+    animation: ease;
+  }
+  img{
+    display: none;
+  }
+  border: 5px solid black;
+}
+.massif{
+  &:before{
+    content: "⛰️ ";
+  }
+}
+.filters{
+  text-align: center;
+  a{
+    display: inline-block;
+    padding: 2px 5px;
+    border: 1px solid white;
+    margin: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    &.active{
+      background: white;
+      color: black;
+      &:after{
+        content: ' x';
+        color: red;
+      }
+    }
+  }
+}
+.grid-item:hover{
+  span.title{
+    top: 0px;
+  }
+  span.date{
+    bottom: 0px;
+  }
+  span.massif{
+    bottom: 25px;
+  }
+}
+span.title{
+  position: absolute;
+  width: 100%;
+  top: -25px;
+  left: 0px;
+  height: 25px;
+  line-height: 25px;
+  text-align: left;
+  background: rgba(0,0,0,0.8);
+}
+span.date{
+  width: 100%;
+  position: absolute;
+  bottom: -25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background: rgba(0,0,0,0.8);
+}
+span.massif{
+  position: absolute;
+  bottom: 0px;
+  height: 25px;
+  width: 100%;
+  line-height: 25px;
+  text-align: right;
+  cursor: pointer;
+}
+.grid-item.large{
+  width: 50%;
+}
+.grid-item.xxlarge{
+  width: 75%;
+}
+.grid-item.xxlarge{
+  width: 100%;
+}
+.legend{
+  width: 100%;
+  text-align: center;
+  font-size: 9px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 480px) {
+  .grid-item {
+    height: 200px;
+    border: 2px solid black;
+  }
+  .grid-item{
+    width: 50%;
+  }
+  .grid-item.large{
+    width: 100%;
+  }
+  .grid-item.xxlarge{
+    width: 100%;
+  }
+  .grid-item.xxlarge{
+    width: 100%;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  .grid-item{
+    width: 100%;
+  }
+}

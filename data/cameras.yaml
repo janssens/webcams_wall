@@ -1,0 +1,149 @@
+-
+  name: "7 laux, Prapoutel sommet"
+  url: "http://www.les7laux.com/~webcam/webcam2.jpg"
+  width: 640
+  height: 480
+  massif: belledonne
+-
+  name: "7 laux, Sommet ourscière"
+  url: "http://www.les7laux.com/~webcam/webcam8.jpg"
+  width: 2048
+  height: 768
+  massif: belledonne
+  format: large
+-
+  name: "7 laux, VALLONS DU PRA, sommet du Gypaète"
+  url: "http://www.gsi38.fr/pouta/pouta/002.jpg"
+  width: 1920
+  height: 1080
+  massif: belledonne
+-
+  name: "7 laux, Pipay bas"
+  url: "http://www.les7laux.com/~webcam/webcam5.jpg"
+  width: 640
+  height: 480
+  massif: belledonne
+-
+  name: "7 laux, Prapoutel bas"
+  url: "http://www.les7laux.com/~webcam/webcam3.jpg"
+  width: 640
+  height: 480
+  massif: belledonne
+-
+  name: "Chamrousse, Sommet Bachat"
+  url: "http://webcams2.chamrousse.com/Sommet_Bachat000.jpg"
+  width: 640
+  height: 480
+  massif: belledonne
+-
+  name: "Chamrousse, Plateau Arselle"
+  url: "http://webcams2.chamrousse.com/Plateau_Arselle_000.jpg"
+  width: 640
+  height: 480
+  massif: belledonne
+-
+  name: "Villard de Lans, Bois Barbu - 1137m"
+  url: "http://webcam-esf.villarddelans.com/esf-bois-barbu.jpg"
+  width: 788
+  height: 591
+  massif: vercors
+-
+  name: "Autrans, Foyer fond - 1000m"
+  url: "http://www.trinum.com/ibox/autrans/images/autransvillage/autransvillage_MEGA.jpg"
+  width: 1280
+  height: 720
+  massif: vercors
+-
+  name: "Autrans, Gêve - 1300m"
+  url: "https://srv15.trinum.com/ibox/ftpcam/mega_geve.jpg"
+  width: 1915
+  height: 1055
+  massif: vercors
+-
+  name: "Autrans, Tremplin - 1100m"
+  url: "http://www.trinum.com/ibox/ftpcam/autrans_tremplin.jpg"
+  width: 2583
+  height: 500
+  massif: vercors
+  format: large
+-
+  name: "Le collet d'Allevard - 1450m"
+  url: "http://webcam.lecollet.com/image.jpg"
+  width: 640
+  height: 480
+  massif: belledonne
+-
+  name: "Le collet d'Allevard - 1650m"
+  url: "http://webcams.lecollet.com/imageSC.jpg"
+  width: 640
+  height: 480
+  massif: belledonne
+-
+  name: "Les deux Alpes, station"
+  url: "http://passion2alpes.com/webcam/image.jpg"
+  width: 942
+  height: 530
+  massif: ecrins
+-
+  name: "St Pierre de Chartreuse, combe Ours"
+  url: "http://www.trinum.com/ibox/chartreuse/images/ours/TSD_Combe_Ours_MEGA.jpg"
+  width: 1050
+  height: 591
+  massif: chartreuse
+-
+  name: "Gresse en Vercors"
+  url: "http://www.trinum.com/ibox/ftpcam/mega_gresse-en-vercors_maison-du-grand-veymont.jpg"
+  width: 11119
+  height: 1403
+  massif: vercors
+  format: xxlarge
+-
+  name: "Lans en Vercors - Stade de neige"
+  url: "http://www.trinum.com/ibox/ftpcam/mega_lans_stade.jpg"
+  width: 1930
+  height: 319
+  massif: vercors
+  format: large
+-
+  name: "Méaudre, front de neige 2"
+  url: "http://www.trinum.com/ibox/ftpcam/meaudre_front.jpg"
+  width: 1929
+  height: 387
+  massif: vercors
+  format: large
+-
+  name: "Villard de Lans, Cote 2000 - 1720m"
+  url: "http://www.espace-villard-correncon.fr/webcam2/webcam_CAM1.jpg"
+  width: 788
+  height: 591
+  massif: vercors
+-
+  name": "Villard de Lans, Cote 2000 - 1700m"
+  url: "http://www.espace-villard-correncon.fr/webcam2/webcam_CAM2.jpg"
+  width: 1280
+  height: 960
+  massif: vercors
+-
+  name": "Correncon ville momble"
+  url: "http://www.trinum.com/ibox/ftpcam/correncon_villemomble.jpg"
+  width: 1889
+  height: 500
+  massif: vercors
+-
+  name: "Correncon plateau"
+  url: "http://www.trinum.com/ibox/ftpcam/mega_correncon_plateau.jpg"
+  width: 1276
+  height: 926
+  massif: vercors
+-
+  name: "Alpe du grand serre  - village"
+  url: "http://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_centre-village.jpg"
+  width: 1150
+  height: 200
+  massif: taillefer
+-
+  name: "Alpe du grand serre  - sommet serriou"
+  url: "http://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_sommet-serriou.jpg"
+  width: 729
+  height: 200
+  massif: taillefer
