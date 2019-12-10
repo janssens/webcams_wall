@@ -1,9 +1,10 @@
 jQuery(function ($) {
-    var $grid = $('.grid').masonry({
-        itemSelector: '.grid-item',
-        percentPosition: true
-    })
-    $grid.isotope({
+    $('.grid').collagePlus(
+        {
+            'fadeSpeed'     : 2000,
+            'targetHeight'  : 200
+        }
+    ).isotope({
         // options
         itemSelector: '.grid-item',
         layoutMode: 'fitRows'

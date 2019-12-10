@@ -9,8 +9,12 @@ body{
 a{
   color: white;
 }
+.grid{
+  width: 100%;
+}
 .grid-item{
   display: block;
+  position: relative;
   width: 25%;
   height: 15vw;
   background-size: cover;
@@ -53,6 +57,7 @@ a{
 .grid-item:hover{
   span.title{
     top: 0px;
+    opacity: 1;
   }
   span.date{
     bottom: 0px;
@@ -62,6 +67,7 @@ a{
   }
 }
 span.title{
+  opacity: 0;
   position: absolute;
   width: 100%;
   top: -25px;

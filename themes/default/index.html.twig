@@ -7,7 +7,8 @@
         <title>{{ app.conf.title }}</title>
         <script src="components/jquery/jquery.min.js"></script>
         <script src="components/venobox/venobox/venobox.min.js"></script>
-        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+        {#<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>#}
+        <script src="themes/{{ app.conf.theme }}/js/jquery.collagePlus.min.js"></script>
         <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
         <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
         <script src="themes/{{ app.conf.theme }}/js/app.js"></script>
@@ -27,13 +28,7 @@
                 No cam found
             {% endfor %}
         </div>
-        <div class="grid">
-            {% for cam in cams %}
-                {{ include('cam.html.twig') }}
-            {% else %}
-                No cam found
-            {% endfor %}
-        </div>
+        <div class="grid">{% for cam in cams %}{{ include('cam.html.twig') }}{% else %}No cam found{% endfor %}</div>
         <div class="legend">
             <div>Favicon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             <div>Made with ❤️ by <a href="https://plopcom.fr">plopcom</a></div>
