@@ -10,7 +10,6 @@
   width: 2048
   height: 768
   massif: belledonne
-  format: large
 -
   name: "7 laux, VALLONS DU PRA, sommet du Gypaète"
   url: "http://www.gsi38.fr/pouta/pouta/002.jpg"
@@ -30,10 +29,22 @@
   height: 480
   massif: belledonne
 -
+  name: "7 laux, Pleynet"
+  url: "http://www.les7laux.com/~webcam/webcam4.jpg"
+  width: 1280
+  height: 960
+  massif: belledonne
+-
   name: "Chamrousse, Sommet Bachat"
   url: "http://webcams2.chamrousse.com/Sommet_Bachat000.jpg"
   width: 640
   height: 480
+  massif: belledonne
+-
+  name: "Chamrousse, Croix"
+  url: "https://www.chamrousse.com/templates/SITE2016/cache/min-PRESTATAIRE-WEBCAMS-CROIXCHAMROUSSE-media.jpg"
+  width: 800
+  height: 450
   massif: belledonne
 -
   name: "Chamrousse, Plateau Arselle"
@@ -60,6 +71,12 @@
   height: 1055
   massif: vercors
 -
+  name: "Autrans, Gêve - refuge"
+  url: "http://54.37.224.161/"
+  width: 1043
+  height: 587
+  massif: vercors
+-
   name: "Autrans, Tremplin - 1100m"
   url: "http://www.trinum.com/ibox/ftpcam/autrans_tremplin.jpg"
   width: 2583
@@ -79,16 +96,16 @@
   height: 480
   massif: belledonne
 -
-  name: "Les deux Alpes, station"
-  url: "http://passion2alpes.com/webcam/image.jpg"
-  width: 942
-  height: 530
-  massif: ecrins
--
   name: "St Pierre de Chartreuse, combe Ours"
   url: "http://www.trinum.com/ibox/chartreuse/images/ours/TSD_Combe_Ours_MEGA.jpg"
   width: 1050
   height: 591
+  massif: chartreuse
+-
+  name: "St Hilaire Touvet"
+  url: "https://www.funiculaire.fr/webcam/data/webcam_sthilaire001.jpg"
+  width: 640
+  height: 400
   massif: chartreuse
 -
   name: "Gresse en Vercors"
@@ -96,21 +113,24 @@
   width: 11119
   height: 1403
   massif: vercors
-  format: xxlarge
 -
   name: "Lans en Vercors - Stade de neige"
   url: "http://www.trinum.com/ibox/ftpcam/mega_lans_stade.jpg"
   width: 1930
   height: 319
   massif: vercors
-  format: large
 -
   name: "Méaudre, front de neige 2"
   url: "http://www.trinum.com/ibox/ftpcam/meaudre_front.jpg"
   width: 1929
   height: 387
   massif: vercors
-  format: large
+-
+  name: "Méaudre, entrée village"
+  url: "http://www.trinum.com/ibox/ftpcam/1280_meaudre_fond.jpg"
+  width: 1280
+  height: 692
+  massif: vercors
 -
   name: "Villard de Lans, Cote 2000 - 1720m"
   url: "http://www.espace-villard-correncon.fr/webcam2/webcam_CAM1.jpg"
@@ -141,9 +161,28 @@
   width: 1150
   height: 200
   massif: taillefer
+  skip_timestamp: true
 -
   name: "Alpe du grand serre  - sommet serriou"
   url: "http://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_sommet-serriou.jpg"
   width: 729
   height: 200
   massif: taillefer
+-
+  name: "Alpe d'Huez"
+  url: "https://static1.alpedhueznet.com/image_uploader/webcam/large/home-runs.jpg"
+  width: 1920
+  height: 354
+  massif: rousses
+-
+  name: "Les 2 Alpes, station"
+  url: "http://passion2alpes.com/webcam/image.jpg"
+  width: 942
+  height: 530
+  massif: ecrins
+-
+  name: "Les 2 Alpes, glacier"
+  url: "http://www.trinum.com/ibox/ftpcam/2alpes_restaurant-les-glaciers.jpg"
+  width: 1916
+  height: 600
+  massif: ecrins
