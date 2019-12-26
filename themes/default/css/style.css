@@ -17,23 +17,13 @@ a {
   width: 100%;
 }
 
-.grid-item {
-  display: block;
-  position: relative;
-  width: 25%;
-  height: 15vw;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  border: 5px solid black;
-}
 .grid-item span {
   display: block;
   padding: 2px 5px;
   animation: ease;
 }
 .grid-item img {
-  display: none;
+  border: 3px solid black;
 }
 
 .massif:before {
@@ -103,18 +93,6 @@ span.massif {
   cursor: pointer;
 }
 
-.grid-item.large {
-  width: 50%;
-}
-
-.grid-item.xxlarge {
-  width: 75%;
-}
-
-.grid-item.xxlarge {
-  width: 100%;
-}
-
 .legend {
   width: 100%;
   text-align: center;
@@ -123,36 +101,11 @@ span.massif {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-device-width: 480px) {
-  .grid-item {
-    height: 200px;
-    border: 2px solid black;
-  }
-
-  .grid-item {
-    width: 50%;
-  }
-
-  .grid-item.large {
-    width: 100%;
-  }
-
-  .grid-item.xxlarge {
-    width: 100%;
-  }
-
-  .grid-item.xxlarge {
-    width: 100%;
+  .filters {
+    font-size: 20px;
   }
 }
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) {
-  /* Styles */
-}
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-  .grid-item {
-    width: 100%;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */

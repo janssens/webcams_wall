@@ -1,9 +1,11 @@
+var collageSettings = {
+    'fadeSpeed'     : 2000,
+    'targetHeight'  : 200,
+    'effect' : "effect-1"
+};
 jQuery(function ($) {
     $('.grid').collagePlus(
-        {
-            'fadeSpeed'     : 2000,
-            'targetHeight'  : 200
-        }
+        collageSettings
     ).isotope({
         // options
         itemSelector: '.grid-item',
@@ -19,7 +21,9 @@ jQuery(function ($) {
             $('.filters').find('.active').removeClass('active');
             $(e.target).addClass("active");
         }
-
+        $('.grid').collagePlus(
+            collageSettings
+        )
     });
     $('.grid-item').venobox();
 });

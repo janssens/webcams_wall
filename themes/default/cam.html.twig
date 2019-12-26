@@ -1,7 +1,9 @@
-{% set lastMod = app.curl_get_lastmod(cam.url) %}{% if  (lastMod and ( ("now"|date_modify("-1 day")) <  lastMod ) ) or cam.skip_timestamp %}<a style="background-image: url({{ cam.url}})" href="{{ cam.url}}" title="{{ cam.name }}" class="grid-item {{ cam.massif }} {{ cam.format }}" width="{{ cam.width }}" height="{{ cam.height }}">
+{% set lastMod = app.curl_get_lastmod(cam.url) %}{% if  (lastMod and ( ("now"|date_modify("-1 day")) <  lastMod ) ) or cam.skip_timestamp %}{#
+#}<a href="{{ cam.url}}" title="{{ cam.name }}" class="grid-item {{ cam.massif }} {{ cam.format }}" >
         <span class="title" >{{ cam.name }}</span>
         <span class="massif">{{ cam.massif }}</span>
         <span class="date" data-timestamp="{{ lastMod.timestamp }}">
                 {{ lastMod.timestamp | date("d M Y H:i:s") }}
         </span>
+        <img src="{{ cam.url}}" alt="{{ cam.name }}" data-width="{{ cam.width }}" data-height="{{ cam.height }}">
 </a>{% endif %}
