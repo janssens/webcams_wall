@@ -155,25 +155,25 @@
   width: 1276
   height: 926
   massif: vercors
--
-  name: "Alpe du grand serre  - village"
-  url: "http://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_centre-village.jpg"
-  width: 1150
-  height: 200
-  massif: taillefer
-  skip_timestamp: true
+#-
+#  name: "Alpe du grand serre  - village"
+#  url: "http://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_centre-village.jpg"
+#  width: 1150
+#  height: 200
+#  massif: taillefer
+#  skip_timestamp: true
 -
   name: "Alpe du grand serre  - sommet serriou"
   url: "http://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_sommet-serriou.jpg"
   width: 729
   height: 200
   massif: taillefer
--
-  name: "Alpe d'Huez"
-  url: "https://static1.alpedhueznet.com/image_uploader/webcam/large/home-runs.jpg"
-  width: 1920
-  height: 354
-  massif: rousses
+#-
+#  name: "Alpe d'Huez"
+#  url: "https://static1.alpedhueznet.com/image_uploader/webcam/large/home-runs.jpg"
+#  width: 1920
+#  height: 354
+#  massif: rousses
 -
   name: "Les 2 Alpes, station"
   url: "http://passion2alpes.com/webcam/image.jpg"
